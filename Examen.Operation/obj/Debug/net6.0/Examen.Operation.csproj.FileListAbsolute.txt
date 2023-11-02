@@ -1,0 +1,11 @@
+D:\Varios\SOL_PEDRO_AVILA\Examen.Operation\bin\Debug\net6.0\Examen.Operation.deps.json
+D:\Varios\SOL_PEDRO_AVILA\Examen.Operation\bin\Debug\net6.0\Examen.Operation.dll
+D:\Varios\SOL_PEDRO_AVILA\Examen.Operation\bin\Debug\net6.0\Examen.Operation.pdb
+D:\Varios\SOL_PEDRO_AVILA\Examen.Operation\obj\Debug\net6.0\Examen.Operation.GeneratedMSBuildEditorConfig.editorconfig
+D:\Varios\SOL_PEDRO_AVILA\Examen.Operation\obj\Debug\net6.0\Examen.Operation.AssemblyInfoInputs.cache
+D:\Varios\SOL_PEDRO_AVILA\Examen.Operation\obj\Debug\net6.0\Examen.Operation.AssemblyInfo.cs
+D:\Varios\SOL_PEDRO_AVILA\Examen.Operation\obj\Debug\net6.0\Examen.Operation.csproj.CoreCompileInputs.cache
+D:\Varios\SOL_PEDRO_AVILA\Examen.Operation\obj\Debug\net6.0\Examen.Operation.dll
+D:\Varios\SOL_PEDRO_AVILA\Examen.Operation\obj\Debug\net6.0\refint\Examen.Operation.dll
+D:\Varios\SOL_PEDRO_AVILA\Examen.Operation\obj\Debug\net6.0\Examen.Operation.pdb
+D:\Varios\SOL_PEDRO_AVILA\Examen.Operation\obj\Debug\net6.0\ref\Examen.Operation.dll

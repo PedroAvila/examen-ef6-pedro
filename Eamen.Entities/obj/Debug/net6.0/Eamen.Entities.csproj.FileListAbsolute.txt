@@ -1,0 +1,11 @@
+D:\Varios\SOL_PEDRO_AVILA\Eamen.Entities\bin\Debug\net6.0\Eamen.Entities.deps.json
+D:\Varios\SOL_PEDRO_AVILA\Eamen.Entities\bin\Debug\net6.0\Eamen.Entities.dll
+D:\Varios\SOL_PEDRO_AVILA\Eamen.Entities\bin\Debug\net6.0\Eamen.Entities.pdb
+D:\Varios\SOL_PEDRO_AVILA\Eamen.Entities\obj\Debug\net6.0\Eamen.Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\Varios\SOL_PEDRO_AVILA\Eamen.Entities\obj\Debug\net6.0\Eamen.Entities.AssemblyInfoInputs.cache
+D:\Varios\SOL_PEDRO_AVILA\Eamen.Entities\obj\Debug\net6.0\Eamen.Entities.AssemblyInfo.cs
+D:\Varios\SOL_PEDRO_AVILA\Eamen.Entities\obj\Debug\net6.0\Eamen.Entities.csproj.CoreCompileInputs.cache
+D:\Varios\SOL_PEDRO_AVILA\Eamen.Entities\obj\Debug\net6.0\Eamen.Entities.dll
+D:\Varios\SOL_PEDRO_AVILA\Eamen.Entities\obj\Debug\net6.0\refint\Eamen.Entities.dll
+D:\Varios\SOL_PEDRO_AVILA\Eamen.Entities\obj\Debug\net6.0\Eamen.Entities.pdb
+D:\Varios\SOL_PEDRO_AVILA\Eamen.Entities\obj\Debug\net6.0\ref\Eamen.Entities.dll

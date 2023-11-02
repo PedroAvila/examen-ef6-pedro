@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Examen.Services/1.0.0": {
+        "dependencies": {
+          "Eamen.Entities": "1.0.0",
+          "Examen.Contract": "1.0.0"
+        },
+        "runtime": {
+          "Examen.Services.dll": {}
+        }
+      },
+      "Eamen.Entities/1.0.0": {
+        "runtime": {
+          "Eamen.Entities.dll": {}
+        }
+      },
+      "Examen.Contract/1.0.0": {
+        "dependencies": {
+          "Eamen.Entities": "1.0.0"
+        },
+        "runtime": {
+          "Examen.Contract.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Examen.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Eamen.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Examen.Contract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
