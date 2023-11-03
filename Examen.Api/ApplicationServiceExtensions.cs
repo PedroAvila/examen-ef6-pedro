@@ -12,11 +12,11 @@ namespace Examen.Api
             /*Persistencia*/
             services.AddScoped(typeof(IRepository<>), typeof(BaseRespository<>));
             services.AddScoped<IUsuarioRespository, UsuarioRepository>();
-            //services.AddScoped<ILibroRepository, LibroRepository>();
+            services.AddScoped<ILibroRepository, LibroRepository>();
 
             /*Servicio*/
             services.AddScoped<IUsuarioService, UsuarioService>();
-            //services.AddScoped<ILibroService, LibroService>();
+            services.AddScoped<ILibroService, LibroService>();
         }
     }
 }

@@ -3,7 +3,9 @@ D:\Varios\SOL_PEDRO_AVILA\Examen.Repository\bin\Debug\net6.0\Examen.Repository.r
 D:\Varios\SOL_PEDRO_AVILA\Examen.Repository\bin\Debug\net6.0\Examen.Repository.dll
 D:\Varios\SOL_PEDRO_AVILA\Examen.Repository\bin\Debug\net6.0\Examen.Repository.pdb
 D:\Varios\SOL_PEDRO_AVILA\Examen.Repository\bin\Debug\net6.0\Eamen.Entities.dll
+D:\Varios\SOL_PEDRO_AVILA\Examen.Repository\bin\Debug\net6.0\Examen.Contract.dll
 D:\Varios\SOL_PEDRO_AVILA\Examen.Repository\bin\Debug\net6.0\Eamen.Entities.pdb
+D:\Varios\SOL_PEDRO_AVILA\Examen.Repository\bin\Debug\net6.0\Examen.Contract.pdb
 D:\Varios\SOL_PEDRO_AVILA\Examen.Repository\obj\Debug\net6.0\Examen.Repository.csproj.AssemblyReference.cache
 D:\Varios\SOL_PEDRO_AVILA\Examen.Repository\obj\Debug\net6.0\Examen.Repository.GeneratedMSBuildEditorConfig.editorconfig
 D:\Varios\SOL_PEDRO_AVILA\Examen.Repository\obj\Debug\net6.0\Examen.Repository.AssemblyInfoInputs.cache
@@ -15,5 +17,3 @@ D:\Varios\SOL_PEDRO_AVILA\Examen.Repository\obj\Debug\net6.0\refint\Examen.Repos
 D:\Varios\SOL_PEDRO_AVILA\Examen.Repository\obj\Debug\net6.0\Examen.Repository.pdb
 D:\Varios\SOL_PEDRO_AVILA\Examen.Repository\obj\Debug\net6.0\Examen.Repository.genruntimeconfig.cache
 D:\Varios\SOL_PEDRO_AVILA\Examen.Repository\obj\Debug\net6.0\ref\Examen.Repository.dll
-D:\Varios\SOL_PEDRO_AVILA\Examen.Repository\bin\Debug\net6.0\Examen.Contract.dll
-D:\Varios\SOL_PEDRO_AVILA\Examen.Repository\bin\Debug\net6.0\Examen.Contract.pdb
