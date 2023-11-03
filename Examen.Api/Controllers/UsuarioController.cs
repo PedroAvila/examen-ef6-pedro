@@ -33,7 +33,7 @@ namespace Examen.Api.Controllers
                 var response = new CustomResponse<Usuario>((int)HttpStatusCode.OK, usuario);
                 return Ok(response);
             }
-            catch (CustomException e)
+            catch (BusinessException e)
             {
                 return StatusCode(e.Status, new CustomResponse<string>(e.Status, e.Mensaje!));
             }
@@ -52,7 +52,7 @@ namespace Examen.Api.Controllers
                 var response = new CustomResponse<UsuarioDto>((int)HttpStatusCode.OK, dto);
                 return Ok(response);
             }
-            catch (CustomException e)
+            catch (BusinessException e)
             {
                 return StatusCode(e.Status, new CustomResponse<string>(e.Status, e.Mensaje!));
             }

@@ -20,7 +20,7 @@ namespace Examen.Services
         {
             var validate = _usuarioValidator.Validate(entity);
             if (!validate.IsValid)
-                throw new CustomException(Validator.GetErrorMessages(validate.Errors), HttpStatusCode.BadRequest);
+                throw new BusinessException(Validator.GetErrorMessages(validate.Errors), HttpStatusCode.BadRequest);
             await _usuarioRespository.CreateAsync(entity);
         }
 
@@ -38,7 +38,7 @@ namespace Examen.Services
         {
             var exist = await _usuarioRespository.ExistAsync(x => x.UsuarioId == id);
             if (!exist)
-                throw new CustomException("Usuario no existe", HttpStatusCode.NotFound);
+                throw new BusinessException("Usuario no existe", HttpStatusCode.NotFound);
 
             return await _usuarioRespository.SingleAsync(id);
         }

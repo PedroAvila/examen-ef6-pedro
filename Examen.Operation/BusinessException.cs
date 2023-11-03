@@ -2,22 +2,22 @@ using System.Runtime.Serialization;
 
 namespace Examen.Operation
 {
-    public class CustomException : Exception
+    public class BusinessException : Exception
     {
         public int Status { get; set; }
         public string? Mensaje { get; set; }
 
-        public CustomException()
+        public BusinessException()
                 : base()
         {
         }
 
-        public CustomException(string message)
+        public BusinessException(string message)
             : base(message)
         {
         }
 
-        public CustomException(string format, params object[] args)
+        public BusinessException(string format, params object[] args)
             : base(string.Format(format, args))
         {
             Mensaje = format;
@@ -26,17 +26,17 @@ namespace Examen.Operation
                 Status = (int)dato;
         }
 
-        public CustomException(string message, Exception innerException)
+        public BusinessException(string message, Exception innerException)
             : base(message, innerException)
         {
         }
 
-        public CustomException(string format, Exception innerException, params object[] args)
+        public BusinessException(string format, Exception innerException, params object[] args)
             : base(string.Format(format, args), innerException)
         {
         }
 
-        protected CustomException(SerializationInfo info, StreamingContext context)
+        protected BusinessException(SerializationInfo info, StreamingContext context)
             : base(info, context)
         {
         }
