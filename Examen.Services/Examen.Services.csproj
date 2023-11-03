@@ -1,14 +1,15 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-
   <ItemGroup>
     <ProjectReference Include="..\Eamen.Entities\Eamen.Entities.csproj" />
     <ProjectReference Include="..\Examen.Contract\Examen.Contract.csproj" />
+    <ProjectReference Include="..\Examen.Operation\Examen.Operation.csproj" />
   </ItemGroup>
-
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.8.0" />
+  </ItemGroup>
 </Project>

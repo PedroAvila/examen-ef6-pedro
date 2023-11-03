@@ -1,4 +1,5 @@
-﻿using Examen.Contract;
+﻿using System.Linq.Expressions;
+using Examen.Contract;
 using Microsoft.EntityFrameworkCore;
 
 namespace Examen.Repository
@@ -23,6 +24,12 @@ namespace Examen.Repository
             T entity = await SingleAsync(id);
             _context.Set<T>().Remove(entity);
             await _context.SaveChangesAsync();
+        }
+
+        public async Task<bool> ExistAsync(Expression<Func<T, bool>> predicate)
+        {
+            bool exist = await _context.Set<T>().AnyAsync(predicate);
+            return exist;
         }
 
         public async Task<IEnumerable<T>> GetAllAsync()

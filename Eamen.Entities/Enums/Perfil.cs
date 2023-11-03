@@ -1,8 +1,8 @@
 ﻿namespace Eamen.Entities
 {
-    public enum Perfil: int
+    public enum Perfil : int
     {
-        Docente= 1,
-        Alumno = 0
+        Docente = 1,
+        Alumno = 2
     }
 }

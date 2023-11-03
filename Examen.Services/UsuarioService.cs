@@ -1,11 +1,14 @@
-﻿using Eamen.Entities;
+﻿using System.Net;
+using Eamen.Entities;
 using Examen.Contract;
+using Examen.Operation;
 using Examen.Services.Interface;
 
 namespace Examen.Services
 {
     public class UsuarioService : IUsuarioService
     {
+        private readonly UsuarioValidator _usuarioValidator = new();
         private readonly IUsuarioRespository _usuarioRespository;
 
         public UsuarioService(IUsuarioRespository usuarioRespository)
@@ -15,6 +18,9 @@ namespace Examen.Services
 
         public async Task CreateAsync(Usuario entity)
         {
+            var validate = _usuarioValidator.Validate(entity);
+            if (!validate.IsValid)
+                throw new CustomException(Validator.GetErrorMessages(validate.Errors), HttpStatusCode.BadRequest);
             await _usuarioRespository.CreateAsync(entity);
         }
 
@@ -28,9 +34,13 @@ namespace Examen.Services
             return _usuarioRespository.GetAllAsync();
         }
 
-        public Task<Usuario> SingleAsync(int id)
+        public async Task<Usuario> SingleAsync(int id)
         {
-            return _usuarioRespository.SingleAsync(id);
+            var exist = await _usuarioRespository.ExistAsync(x => x.UsuarioId == id);
+            if (!exist)
+                throw new CustomException("Usuario no existe", HttpStatusCode.NotFound);
+
+            return await _usuarioRespository.SingleAsync(id);
         }
 
         public async Task UpdateAsync(Usuario entity)
