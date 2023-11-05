@@ -3,13 +3,13 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Examen.Repository
 {
-    public class BibliotecaContext: DbContext
+    public class BibliotecaContext : DbContext
     {
-        public BibliotecaContext(DbContextOptions<BibliotecaContext> options): base(options) { }
+        public BibliotecaContext(DbContextOptions<BibliotecaContext> options) : base(options) { }
 
 
-        public DbSet<Usuario> Usuarios { get; set; }
-        public DbSet<Libro> Libros { get; set; }
-        public DbSet<Prestamo> Prestamos { get; set; }
+        public DbSet<Usuario>? Usuarios { get; set; }
+        public DbSet<Libro>? Libros { get; set; }
+        public DbSet<Prestamo>? Prestamos { get; set; }
     }
 }
